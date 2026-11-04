@@ -1,0 +1,9 @@
+name: auth
+description: auth
+inputs:
+  token:
+    required: true
+runs:
+  using: node24
+  pre: pre.js
+  main: main.js
